@@ -1,5 +1,11 @@
-package gogetaddition
+package main
 
-func Add(a1, b2) {
-  return a1+b2
+import "fmt"
+
+func Add(a1 int, b2 int) int {
+  return a1+b2;
+}
+
+func main() {
+  fmt.Println(Add(1,2))
 }
